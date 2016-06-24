@@ -6,10 +6,10 @@ var server = http.createServer(function(req, res){
 
 console.log('we here');
 
-Bot.botFunction()
-setTimeout(function(){
-  Bot.remindSoleUsers()
-},5000)
+Bot.remindAllUsers()
+// setTimeout(function(){
+//   Bot.remindSoleUsers()
+// },5000)
 
 
 
