@@ -1,0 +1,19 @@
+{
+  "name": "pairmaster",
+  "version": "1.0.0",
+  "description": "",
+  "main": "camera.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RaekwonStorm/pairmaster.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RaekwonStorm/pairmaster/issues"
+  },
+  "homepage": "https://github.com/RaekwonStorm/pairmaster#readme"
+}
