@@ -38,8 +38,8 @@ var botObj = {
     remindSoleUsers: function(){
       bot.postMessageToChannel(reqChannelInfo.name, 'Hey you guys switch or ur gonna be shamed');
     },
-    shameUsers: function(){
-      bot.postMessageToChannel('general', 'http://tessel-02a38506f705.local:8080/');
+    shameUsers: function(shameLink){
+      bot.postMessageToChannel('general', 'these two suck at pair programming - ' + shameLink);
     }
 
 };
