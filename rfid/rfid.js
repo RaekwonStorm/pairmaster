@@ -10,7 +10,7 @@ rfid.on('ready', function (version) {
 
  rfid.on('data', function(card) {
     var currentTime = new Date()
-   console.log('UID: ', card.uid.toString('hex'), " at time: ", currentTime);
+    console.log('UID: ', card.uid.toString('hex'), " at time: ", currentTime);
  });
 
 });
