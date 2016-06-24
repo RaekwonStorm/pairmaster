@@ -2,7 +2,7 @@
   "name": "pairmaster",
   "version": "1.0.0",
   "description": "",
-  "main": "camera.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/RaekwonStorm/pairmaster/issues"
   },
-  "homepage": "https://github.com/RaekwonStorm/pairmaster#readme"
+  "homepage": "https://github.com/RaekwonStorm/pairmaster#readme",
+  "dependencies": {
+    "slackbots": "^0.5.1"
+  }
 }
