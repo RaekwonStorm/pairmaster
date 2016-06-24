@@ -1,9 +1,16 @@
+var Bot = require('./slackSend');
 var http = require('http');
 var server = http.createServer(function(req, res){
-  console.log('connected')
-  res.end()
-})
+  res.end();
+});
 
 console.log('we here');
+
+Bot.botFunction()
+setTimeout(function(){
+  Bot.remindSoleUsers()
+},5000)
+
+
 
 server.listen(8080);
